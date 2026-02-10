@@ -42,5 +42,17 @@ Classification Report
           billing       1.00      1.00      1.00        19
          delivery       1.00      1.00      1.00        22
 
+## Run API
 
+Start the API server:
+```bash
+uvicorn src.api.app:app --reload
+```
 
+### Health check:
+
+[Health Check](http://127.0.0.1:8000/health)
+
+### Swagger docs:
+
+[Doc](http://127.0.0.1:8000/docs)
