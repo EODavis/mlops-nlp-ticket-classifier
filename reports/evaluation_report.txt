@@ -1,0 +1,23 @@
+Classification Report
+====================
+                   precision    recall  f1-score   support
+
+          account       1.00      1.00      1.00        27
+          billing       1.00      1.00      1.00        19
+         delivery       1.00      1.00      1.00        22
+  general_inquiry       1.00      1.00      1.00        32
+           refund       1.00      1.00      1.00        16
+technical_support       1.00      1.00      1.00        24
+
+         accuracy                           1.00       140
+        macro avg       1.00      1.00      1.00       140
+     weighted avg       1.00      1.00      1.00       140
+
+
+Confusion Matrix
+[[27  0  0  0  0  0]
+ [ 0 19  0  0  0  0]
+ [ 0  0 22  0  0  0]
+ [ 0  0  0 32  0  0]
+ [ 0  0  0  0 16  0]
+ [ 0  0  0  0  0 24]]
