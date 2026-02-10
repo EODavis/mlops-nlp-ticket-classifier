@@ -14,3 +14,11 @@ A beginner-friendly MLOps project that classifies customer support tickets into 
 ### 1. Generate Dataset
 ```bash
 python src/data/make_dataset.py
+
+### 2. Train Model
+```bash
+python src/models/train_model.py
+
+### 3. Run Tests
+```bash
+pytest
