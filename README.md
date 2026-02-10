@@ -1,6 +1,8 @@
 # MLOps NLP Ticket Classifier
 
-A beginner-friendly MLOps project that classifies customer support tickets into business categories such as billing, delivery, refunds, technical support, and account issues.
+A beginner-friendly MLOps project that classifies customer support tickets into business categories such as billing, delivery, refunds, technical support, and account issues. MLOps
+
+#Machine Learning #DeepLearning #Python #scikit-learn #FastAPI #NLP #TextClassification #Data Science
 
 ## Project Structure
 - `data/` - synthetic dataset storage
@@ -23,3 +25,22 @@ python src/models/train_model.py
 ```bash
 pythom -m pytest
 ```
+## Model Evaluation
+
+After training, the model is evaluated on a test split (20% of data).
+
+- Metrics: Accuracy, Precision, Recall, F1-score
+- Confusion Matrix generated
+- Full evaluation report saved in `/reports/evaluation_report.txt`
+
+Example:
+Classification Report
+====================
+                   precision    recall  f1-score   support
+
+          account       1.00      1.00      1.00        27
+          billing       1.00      1.00      1.00        19
+         delivery       1.00      1.00      1.00        22
+
+
+
