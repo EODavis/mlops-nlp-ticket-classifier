@@ -1,0 +1,13 @@
+data:
+  raw_path: "data/raw/support_tickets.csv"
+
+model:
+  model_path: "models/ticket_classifier.joblib"
+  test_size: 0.2
+  random_state: 42
+
+reports:
+  evaluation_report: "reports/evaluation_report.txt"
+
+api:
+  log_path: "logs/api_requests.log"

@@ -14,8 +14,11 @@ log_path = project_root / "logs" / "api_requests.log"
 model = joblib.load(model_path)
 
 
+from pydantic import BaseModel, Field
+
 class TicketRequest(BaseModel):
-    text: str
+    text: str = Field(..., min_length=10, max_length=500)
+
 
 
 class TicketResponse(BaseModel):
